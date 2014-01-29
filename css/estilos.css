@@ -236,9 +236,9 @@ nav ul #publicar_nav a:hover
 	margin-bottom: 0;
 	padding: 1em 1em 0 0;
 }
-#contenido .item .imagen_item a
+#contenido .item .titulo_item a
 {
-	color: #444
+	color: #444;
 	text-decoration: none;
 }
 #contenido .item .votacion
@@ -303,4 +303,32 @@ nav ul #publicar_nav a:hover
 	{
 		width: 100%;
 	}
+}
+
+/*
+	*Formulario
+*/
+
+.formulario
+{
+	padding: 1em;
+	text-align: right;
+	display: none;
+}
+
+.formulario input
+{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]
+{
+	background: #22BCE0;
+	border-color: #22BCE0;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	color: white;
 }
